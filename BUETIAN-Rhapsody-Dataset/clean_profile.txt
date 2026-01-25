@@ -1,0 +1,14 @@
+shape: (977, 5)
+columns: ['text', 'likes', 'comments', 'time', 'url']
+object columns: ['text', 'time', 'url']
+numeric columns: ['likes', 'comments']
+main_text_col: text
+length_stats:
+count     977.000000
+mean      756.152508
+std       820.445130
+min         1.000000
+25%       183.000000
+50%       497.000000
+75%      1072.000000
+max      5645.000000

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "BUETIAN Rhapsody — Anonymous Campus Voices (2023–2025)"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: "SubsCheap"
+    given-names: ""
+date-released: "2025-09-02"
+version: "1.0.0"
+repository-code: "https://kaggle.com/datasets/<your-handle>/buetian-rhapsody"

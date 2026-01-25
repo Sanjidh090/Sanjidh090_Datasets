@@ -1,0 +1,23 @@
+{
+  "title": "BUETIAN Rhapsody \u2014 Anonymous Campus Voices (2023\u20132025)",
+  "id": "<your-kaggle-username>/buetian-rhapsody",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "collaborators": [],
+  "subtitle": "Echoes of the campus, voices of the unheard.",
+  "description": "See README_Kaggle.md",
+  "isPrivate": false,
+  "keywords": [
+    "nlp",
+    "social-media",
+    "bangladesh",
+    "education",
+    "sentiment-analysis",
+    "toxic-comment",
+    "timeseries",
+    "text-mining"
+  ]
+}
