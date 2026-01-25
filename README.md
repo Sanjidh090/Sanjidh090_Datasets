@@ -1,7 +1,7 @@
 # Sanjidh090_Datasets
 Datasets I am author to
 
-## 🤖 Sanjidh Data Explorer
+## 🤖 Sanjidh090- Data Explorer
 
 A specialized interactive tool designed to help researchers, students, and data scientists understand and utilize the datasets in this repository.
 
