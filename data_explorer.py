@@ -20,7 +20,7 @@ class SanjidhDataExplorer:
     """
     
     def __init__(self, repo_root=None):
-        self.repo_root = Path(repo_root) if repo_root else Path(__file__).parent
+        self.repo_root = Path(repo_root).resolve() if repo_root else Path(__file__).parent.resolve()
         self.datasets = {
             'buetian': {
                 'name': 'BUETIAN Rhapsody Dataset',
@@ -82,8 +82,8 @@ class SanjidhDataExplorer:
     def _explain_csv(self, file_path, result):
         """Explain CSV file structure."""
         try:
-            # Read CSV with error handling
-            df = pd.read_csv(file_path, encoding='utf-8', on_bad_lines='skip', nrows=1000)
+            # Read CSV with error handling (preview first 1000 rows for performance)
+            df = pd.read_csv(file_path, encoding='utf-8', on_bad_lines='warn', nrows=1000)
             
             result.append(f"**File Type:** CSV (Comma-Separated Values)")
             result.append(f"**Rows:** {len(df):,}")
@@ -239,7 +239,7 @@ class SanjidhDataExplorer:
             output.append(f"  • {dep}")
         
         output.append("\n**Installation:**")
-        output.append(f"  pip install pandas python-dateutil scikit-learn numpy")
+        output.append(f"  pip install -r requirements.txt")
         
         output.append("\n**Usage Examples:**")
         for usage in guide['usage']:
